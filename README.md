@@ -11,3 +11,8 @@ Se creo una clase persona que contiene los siguientes atributos: el nombre de la
 Y tenemos la clase vehiculo, que contienen un atributo llamado tipovehiculo el cual estaran dentro los tipos de vehiculos como la moto, el auto y la bicicleta, de metodos tiene un constructor para dar los parametros a los atributos de la clase vehiculo y un getter para el atributo de la clase getTipovehiculo
 
 ![image](https://github.com/GatoMiau03/Dependencias/assets/142507343/638a6e4e-df85-45be-9927-a4dafca49c8b)
+
+
+Codigo generado por el diagrama VPP
+![image](https://github.com/GatoMiau03/Dependencias/assets/142507343/80ea31af-2c62-4918-892c-a710482efb91)
+![image](https://github.com/GatoMiau03/Dependencias/assets/142507343/016e57ad-8aeb-4b70-9f49-9a10eba577a6)
