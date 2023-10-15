@@ -1,18 +1,18 @@
+package org.example;
 public class Vehiculo {
+	private String tipoVehiculo;
+	private int tiempoViaje;  // En minutos
 
-	private string tipovehiculo;
-
-	/**
-	 * 
-	 * @param tipovehiculo
-	 */
-	public Vehiculo(string tipovehiculo) {
-		// TODO - implement Vehiculo.Vehiculo
-		throw new UnsupportedOperationException();
+	public Vehiculo(String tipoVehiculo, int tiempoViaje) {
+		this.tipoVehiculo = tipoVehiculo;
+		this.tiempoViaje = tiempoViaje;
 	}
 
-	public string getTipovehiculo() {
-		return this.tipovehiculo;
+	public String getTipoVehiculo() {
+		return tipoVehiculo;
 	}
 
+	public int getTiempoViaje() {
+		return tiempoViaje;
+	}
 }
