@@ -1,25 +1,20 @@
+package org.example;
 public class Persona {
-
-	private string nombre;
-	private string destino;
+	private String nombre;
+	private String destino;
 	private Vehiculo vehiculo;
 
-	/**
-	 * 
-	 * @param nombre
-	 * @param destino
-	 * @param vehiculo
-	 */
-	public Persona(string nombre, string destino, Vehiculo vehiculo) {
-		// TODO - implement Persona.Persona
-		throw new UnsupportedOperationException();
+	public Persona(String nombre, String destino, Vehiculo vehiculo) {
+		this.nombre = nombre;
+		this.destino = destino;
+		this.vehiculo = vehiculo;
 	}
 
-	public string getNombre() {
+	public String getNombre() {
 		return this.nombre;
 	}
 
-	public string getDestino() {
+	public String getDestino() {
 		return this.destino;
 	}
 
@@ -28,8 +23,7 @@ public class Persona {
 	}
 
 	public int calcularTiempo() {
-		// TODO - implement Persona.calcularTiempo
-		throw new UnsupportedOperationException();
+		// Utiliza el tiempo de viaje del vehículo elegido para calcular el tiempo de viaje.
+		return this.vehiculo.getTiempoViaje();
 	}
-
 }
