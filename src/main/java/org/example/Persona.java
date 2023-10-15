@@ -27,3 +27,4 @@ public class Persona {
 		return this.vehiculo.getTiempoViaje();
 	}
 }
+
